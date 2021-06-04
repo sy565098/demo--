@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    height: 80px;
+    background-color: #07cbc9;
+}
+.header .nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .nav .left_nav{
+    font-weight: 400;
+    float: left;
+    font-size: 48px;
+    line-height: 80px;
+    color: white;
+}
+.header .nav .right_nav {
+    float: right;
+}
+.header .nav .right_nav li{
+    float: left;
+    font-size: 16px;
+    line-height: 80px;
+    margin-right: 20px;
+     color: white;
+} 
+.banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    float: left;
+}
+.banner .b-img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.banner .zhezhaoceng{
+position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+}
+.banner .zhezhaoceng .content{
+    position: absolute;
+    width: 504px;
+    height: 400px;
+    margin-top :100px; 
+    left:50% ;
+    margin-left: -200px;
+    
+}
+.banner .zhezhaoceng .content .input{
+    background: none;
+    width: 504px;
+    height: 40px;
+    margin-bottom: 20px ;
+    border:1px solid #808080;
+    color: #808080;
+}
+.banner .zhezhaoceng .content .big-input{
+    background: none;
+    width: 504px;
+    height: 110px;
+    margin-bottom: 20px ;
+    border:1px solid #808080;
+    color: #808080;
+}
+.banner .zhezhaoceng .content .button{
+    display: block;
+    background: none;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+}
