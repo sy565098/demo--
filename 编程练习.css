@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    height: 80px;
+    background-color: #07cbc9;
+}
+.header .nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .nav .left_nav{
+    font-weight: 400;
+    float: left;
+    font-size: 48px;
+    line-height: 80px;
+    color: white;
+}
+.header .nav .right_nav {
+    float: right;
+}
+.header .nav .right_nav li{
+    float: left;
+    font-size: 16px;
+    line-height: 80px;
+    margin-right: 20px;
+     color: white;
+} 
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner .b-img{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.banner .zhezhaoceng{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+}
+.banner .zhezhaoceng .content{
+    position: absolute;
+    width: 504px;
+    height: 355px;
+    margin-top: 100px;
+    left:50% ;
+    margin-left: -252px;
+}
+.banner .zhezhaoceng .content form{
+    width: 504px;
+    height: 40px;
+    
+    border:1px solid #808080;
+    color: #808080;
+}
+.banner .zhezhaoceng .content .input{
+    background: none;
+    width: 504px;
+    height: 40px;
+    margin-bottom: 20px ;
+    border:1px solid #808080;
+    color: #808080;
+}
+
+.banner .zhezhaoceng .content form .input.big{
+    height: 110px;
+    text-align:left ;
+}
+.banner .zhezhaoceng .content form .input.button{
+
+    display: block;
+   text-align: center;
+    width: 200px;
+    height:40px ;
+    outline: none;
+   margin: 0 auto;
+    
+}
+
+.body .neirong{
+    width: 1230px;
+    height: 600px;
+    margin: 0 auto;
+   overflow: hidden;
+}
+.body .neirong .about-top h2{
+    text-align: center;
+}
+.body .neirong .about-top .t1{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    margin:10px auto ;
+}
+.body .neirong .about-top p{
+    width: 400px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.body .neirong .about-bottom {
+
+    width: 1200px;
+    height: 464px;
+    border: 1px solid red;
+}
+.body .neirong .about-bottom .ab-left{
+    float: left;
+    width:300px ;
+    height: 400px;
+}
+.body .neirong .about-bottom .ab-left h2{
+    width: 200px;
+    margin-top: 35px;
+}
+.body .neirong .about-bottom .ab-left .center{
+
+    margin-top: 50px;
+    width: 340px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid gray;
+    background-color: rgba(255,255,255,0.5);
+}
+.body .neirong .about-bottom .ab-left .center .button{
+   margin-top: 20px;
+    width: 140px;
+    height:40px ;
+    background-color: black;
+ color:white;
+    
+}
+.body .neirong .about-bottom .ab-middle{
+    
+    float: left;
+    left: 50%;
+    margin-left: -20px;
+    padding-top: 30px;
+}
+.body .neirong .about-bottom .ab-middle .ab-img{
+    width:650px ;
+    height: 435px;
+}
+.body .neirong .ab-right {
+    float: right;
+}
+.body .neirong .ab-right .shuliang{
+
+    width: 260px;
+    height: 110px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    border: 1px solid #07cbc9;
+}
+.body .neirong .ab-right .shuliang h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+.body .neirong .ab-right .shuliang .t2{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    margin:10px auto ;
+}
+.body .neirong .ab-right .jiaoyuanshu{
+    width: 260px;
+    height: 110px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    border: 1px solid #07cbc9;
+}
+.body .neirong .ab-right .jiaoyuanshu h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+.body .neirong .ab-right .jiaoyuanshu .t3{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    margin:10px auto ;
+} 
+
+.body .image-text{
+
+    margin: 0 auto;
+    width: 1600px;
+    height: 760px;
+    background-color: #07cbc9;
+    
+}
+
+
+.body .image-text .p1{
+    display: block;  
+    font-size: 16px;
+    color: white;
+margin-bottom: 30px;
+    }
+
+.body .image-text .p2{
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 30px;
+}
+
+.body .image-text a{
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 138px;
+    height: 40px;
+    margin: 0 auto;
+    line-height :40px; 
+}
+
+/* 图文1 */
+.body .image-text .one{
+    float: left;
+    width: 25%;
+    height: 380px;
+}
+.body .image-text .one .tu1{
+
+    height: 380px;
+}
+/* 文字 */
+.body .image-text .two{
+    float: left;
+    width: 25%;
+    height: 380px;
+    text-align: center;
+}
+.body .image-text .two .tou{
+    padding: 20px 20px 30px;
+    font-size: 24px;
+    color: white;
+    }
+
+
+/* 图文2 */
+.body .image-text .three{
+    float: left;
+    width: 25%;
+    height: 380px;
+}
+.body .image-text .three .tu2{
+    float: left;
+    height: 380px;
+}
+/* 文字 */
+.body .image-text .four{
+    float: left;
+    width: 25%;
+    height: 380px;
+    text-align: center;
+}
+.body .image-text .four .tou{
+    padding: 20px 20px 30px;
+    font-size: 24px;
+    color: white;
+    }
+
+/* 图文3 */
+.body .image-text .five{
+    float: left;
+    width: 25%;
+    height: 380px;
+}
+.body .image-text .five .tu3{
+
+    height: 380px;
+}
+/* 文字 */
+.body .image-text .six{
+    float: left;
+    width: 25%;
+    height: 380px;
+    text-align: center;
+
+}
+.body .image-text .six .tou{
+    padding: 20px 20px 30px;
+    font-size: 24px;
+    color: white;
+    }
+
+/* 图文4 */
+.body .image-text .seven{
+    float: left;
+    width: 25%;
+    height: 380px;
+}
+.body .image-text .seven .tu4{
+
+    height: 380px;
+}
+/* 文字 */
+.body .image-text .eight{
+    float: left;
+    width: 25%;
+    height: 380px;
+    text-align: center;
+}
+.body .image-text .eight .tou{
+    padding: 20px 20px 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.gallery .gallery-top{
+        width: 500px;
+        height: 140px;
+        margin: 0 auto;
+       overflow: hidden;
+       text-align: center;
+       margin-top: 30px;
+}
+.gallery .gallery-top h3{
+
+    margin-top: 30px;
+}
+.gallery .gallery-top .t4{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    margin:10px auto ;
+}
+.gallery .gallery-top p{
+    width: 400px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+
+
+
+.gallery  .gallery-bottom{
+position: relative;
+    margin: 0 auto;
+    width: 1162px;
+    height: 623px;
+    border: 1px  dashed red;
+    padding: 20px;
+ 
+}
+
+/* 第一个 */
+.gallery  .gallery-bottom .img.one{
+    float: left;
+    width: 360px;
+    height: 290px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.gallery  .gallery-bottom .img.one .img-0301{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+.gallery  .gallery-bottom span{
+    position: absolute;
+    display:block;
+    background-color: #000;
+    width: 340px;
+    height: 50px;
+   color: white;
+    padding-left: 20px;
+   line-height: 50px;
+}
+
+/* 第二个 */
+.gallery  .gallery-bottom .img.two{
+    float: left;
+    width: 360px;
+    height: 290px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.gallery  .gallery-bottom .img.two .img-0302{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+
+/* 第三个 */
+.gallery  .gallery-bottom .img.three{
+    float: left;
+    width: 360px;
+    height: 290px;
+}
+.gallery  .gallery-bottom .img.three .img-0303{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+
+
+/* 第四个 */
+.gallery  .gallery-bottom .img.four{
+    float: left;
+    width: 360px;
+    height: 290px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.gallery  .gallery-bottom .img.four .img-0304{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+
+
+
+/* 第五个 */
+.gallery  .gallery-bottom .img.five{
+    float: left;
+    width: 360px;
+    height: 290px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.gallery  .gallery-bottom .img.five .img-0305{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+
+/* 第六个 */
+.gallery  .gallery-bottom .img.six{
+    float: right;
+    width: 360px;
+    height: 290px;
+    margin-bottom: 30px;
+    
+}
+.gallery  .gallery-bottom .img.six .img-0306{
+    display: block;
+    width: 360px;
+    height: 240px;
+}
+
+.footer{
+    background-color:#07cbc9 ;
+    height: 80px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 80px;
+}
